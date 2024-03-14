@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-  <img align="middle" src="./assets/network.png" alt="The main figure"/>
+  <img align="middle" src="network.png" alt="The main figure"/>
 </p>
 
 ## Instalation
