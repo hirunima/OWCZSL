@@ -1,0 +1,86 @@
+config_name: 'mitstates'
+
+DATASET:
+  root_dir: '/mitstates'
+  name: 'mitstates'
+  splitname: 'compositional-split-natural'
+
+MODEL:
+  load_checkpoint: False
+
+  img_emb_dim: 2048
+  img_emb_drop: 0.3
+  image_size: 224
+  max_image_len: -1
+  patch_size: 32
+
+  wordembs: 'glove'
+  wordemb_compose: 'obj-conditioned'
+  wordemb_compose_dropout: 0.05
+
+  emb_dim: 300
+
+  lambda_attn: 10.0
+  attn_normalized: True
+
+  classifier: 'cosine'
+  cosine_cls_temp: 0.05
+
+  w_loss_main: 1.0
+
+  use_attr_loss: True
+  w_loss_attr: 0.25
+
+  use_obj_loss: True
+  w_loss_obj: 0.25
+
+  use_emb_pair_loss: True
+  emb_loss_main: 0.05
+
+  use_composed_pair_loss: True
+  unseen_loss_ratio: 0.05
+  seen_loss_ratio: 0.05
+
+  # Text Setting
+  vqav2_label_size: 3129
+  max_text_len : 8
+  tokenizer : "bert-base-uncased"
+  vocab_size : 30522
+  whole_word_masking : False
+  mlm_prob : 0.15
+  draw_false_text : 0
+
+TRAIN:
+  log_dir: 'OADis/log/mitstates'
+  checkpoint_dir: '/OADis/checkpoints/mitstates'
+  num_workers: 4
+  seed: 124
+
+  batch_size: 72
+  test_batch_size: 128
+
+  finetune_backbone: False
+  use_precomputed_features: False
+  comb_features: False
+
+  lr_word_embedding: -1
+  wd: 0.01
+
+  disp_interval: 119
+  save_every_epoch: 1
+  eval_every_epoch: 1
+
+  start_epoch: 1
+  start_epoch_validate: 1
+  max_epoch: 15
+  final_max_epoch: 15
+
+  decay_strategy: 'milestone' 
+  decay_factor: 0.3
+  lr_decay_milestones: [30, 40]
+
+EVAL:
+  topk: 1
+
+
+
