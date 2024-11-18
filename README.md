@@ -1,4 +1,8 @@
-# Official Implementation for 'Unified Framework for Open-World Compositional Zero-shot Learning'
+# Official Implementation for 'Unified Framework for Open-World Compositional Zero-shot Learning', WACV 2025
+[Hirunima Jayasekara](https://hirunima.github.io/),
+[Nirat Saini](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4kgg1kbcLx0j2dkvo5bGoQb9BU8bNEaEkiOirw72JFqU1cdNGVo3r8KTG7pq0yHTgIZ1M6jqtUUbXRAz_6YPTAeJjMwA&user=VsTvk-8AAAAJ),
+[Khoi Pham](https://scholar.google.com/citations?user=o7hS8EcAAAAJ&hl=en),
+[Abhinav Shrivastava](http://www.cs.umd.edu/~abhinav/)
 
 ---
 <p align="center">
