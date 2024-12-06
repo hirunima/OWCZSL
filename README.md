@@ -9,7 +9,7 @@
   <img align="middle" src="network.png" alt="The main figure"/>
 </p>
 
-## Instalation
+## Installation
 ```
 python=3.9.17
 pytorch=1.13.1
