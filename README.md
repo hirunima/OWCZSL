@@ -44,4 +44,13 @@ Open world performance on MIT-States, C-GQA and VAW-CZSL. As evaluation matrices
   <img align="middle" src="results.png" alt="The main figure"/>
 </p>
 
+## Citation
 
+```bibtex
+@article{jayasekara2024unified,
+  title={Unified Framework for Open-World Compositional Zero-shot Learning},
+  author={Jayasekara, Hirunima and Pham, Khoi and Saini, Nirat and Shrivastava, Abhinav},
+  journal={arXiv preprint arXiv:2412.04083},
+  year={2024}
+}
+```
