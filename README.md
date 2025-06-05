@@ -1,4 +1,4 @@
-# Official Implementation for 'Unified Framework for Open-World Compositional Zero-shot Learning'
+# Official Implementation for 'Unified Framework for Open-World Compositional Zero-shot Learning' in WACV 2025
 [Hirunima Jayasekara](https://hirunima.github.io/),
 [Nirat Saini](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4kgg1kbcLx0j2dkvo5bGoQb9BU8bNEaEkiOirw72JFqU1cdNGVo3r8KTG7pq0yHTgIZ1M6jqtUUbXRAz_6YPTAeJjMwA&user=VsTvk-8AAAAJ),
 [Khoi Pham](https://scholar.google.com/citations?user=o7hS8EcAAAAJ&hl=en),
@@ -47,10 +47,12 @@ Open world performance on MIT-States, C-GQA and VAW-CZSL. As evaluation matrices
 ## Citation
 
 ```bibtex
-@article{jayasekara2024unified,
-  title={Unified Framework for Open-World Compositional Zero-shot Learning},
+@INPROCEEDINGS{jayasekara2024unified,
   author={Jayasekara, Hirunima and Pham, Khoi and Saini, Nirat and Shrivastava, Abhinav},
-  journal={arXiv preprint arXiv:2412.04083},
-  year={2024}
-}
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 
+  title={Unified Framework for Open-World Compositional Zero-Shot Learning}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={2706-2714}}
 ```
