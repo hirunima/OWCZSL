@@ -47,7 +47,7 @@ Open world performance on MIT-States, C-GQA and VAW-CZSL. As evaluation matrices
 ## Citation
 
 ```bibtex
-@INPROCEEDINGS{jayasekara2024unified,
+@INPROCEEDINGS{jayasekara2025unified,
   author={Jayasekara, Hirunima and Pham, Khoi and Saini, Nirat and Shrivastava, Abhinav},
   booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 
   title={Unified Framework for Open-World Compositional Zero-Shot Learning}, 
